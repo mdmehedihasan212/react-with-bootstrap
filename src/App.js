@@ -1,13 +1,11 @@
-import logo from './logo.svg';
+import { Button } from 'react-bootstrap';
 import './App.css';
-import Button from './components/Button/Button';
-import CardGroup from './components/CardGroup/CardGroup';
 
 function App() {
   return (
     <div className="App">
-      <Button></Button>
-      <CardGroup></CardGroup>
+      <h2>Using React Bootstrap</h2>
+      <Button>Bootstrap Button</Button>
     </div>
   );
 }
